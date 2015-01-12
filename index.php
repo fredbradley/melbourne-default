@@ -1,3 +1,9 @@
+<?php 
+
+$twitter = "fredbradley";
+$github = $twitter;
+$linkedin = "uk.linkedin.com/in/fredbradley";
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -7,7 +13,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="author" content="Fred Bradley">
 
     <title>Fred Bradley - Web Developer</title>
 
@@ -33,7 +39,7 @@
 <body>
 
     <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation">
+<?php /*    <nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation">
         <div class="container topnav">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
@@ -43,7 +49,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand topnav" href="#">Start Bootstrap</a>
+                <a class="navbar-brand topnav" href="index.php"><?php echo $_SERVER['HTTP_HOST']; ?></a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -63,7 +69,7 @@
         </div>
         <!-- /.container -->
     </nav>
-
+*/ ?>
 
     <!-- Header -->
     <a name="about"></a>
@@ -73,18 +79,19 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="intro-message">
-                        <h1>Landing Page</h1>
-                        <h3>A Template by Start Bootstrap</h3>
+                        <h1>We're not quite ready!</h1>
+                        <h3>This domain has recently been set up. <br />The owners aren't willing to share all their secrets just yet.</h3>
                         <hr class="intro-divider">
+			<p>This domain maintained by <a href="http://www.fredbradley.uk" target="_blank">Fred Bradley</a> a Web Developer and Media Producer based in Surrey, England.</p>
                         <ul class="list-inline intro-social-buttons">
                             <li>
-                                <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
+                                <a href="https://twitter.com/<?php echo $twitter; ?>" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
                             </li>
                             <li>
-                                <a href="https://github.com/IronSummitMedia/startbootstrap" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                                <a href="https://github.com/<?php echo $github; ?>" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
                             </li>
                             <li>
-                                <a href="#" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
+                                <a href="<?php echo $linkedin; ?>" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
                             </li>
                         </ul>
                     </div>
@@ -172,7 +179,7 @@
 
             <div class="row">
                 <div class="col-lg-6">
-                    <h2>Connect to Start Bootstrap:</h2>
+                    <h2>Connect with Fred:</h2>
                 </div>
                 <div class="col-lg-6">
                     <ul class="list-inline banner-social-buttons">
@@ -217,7 +224,7 @@
                             <a href="#contact">Contact</a>
                         </li>
                     </ul>
-                    <p class="copyright text-muted small">Copyright &copy; Your Company 2014. All Rights Reserved</p>
+                    <p class="copyright text-muted small">Copyright &copy; Fred Bradley Media 2012 - <?php echo date("Y"); ?>. All Rights Reserved</p>
                 </div>
             </div>
         </div>
