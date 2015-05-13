@@ -105,7 +105,7 @@ $linkedin = "http://uk.linkedin.com/in/fredbradley";
     <!-- /.intro-header -->
 
     <!-- Page Content -->
-
+<?php /*
 	<a  name="services"></a>
     <div class="content-section-a">
 
@@ -229,7 +229,7 @@ $linkedin = "http://uk.linkedin.com/in/fredbradley";
             </div>
         </div>
     </footer>
-
+*/ ?>
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
 
