@@ -2,7 +2,7 @@
 
 $twitter = "fredbradley";
 $github = $twitter;
-$linkedin = "uk.linkedin.com/in/fredbradley";
+$linkedin = "http://uk.linkedin.com/in/fredbradley";
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -85,13 +85,13 @@ $linkedin = "uk.linkedin.com/in/fredbradley";
 			<p>This domain maintained by <a href="http://www.fredbradley.uk" target="_blank">Fred Bradley</a> a Web Developer and Media Producer based in Surrey, England.</p>
                         <ul class="list-inline intro-social-buttons">
                             <li>
-                                <a href="https://twitter.com/<?php echo $twitter; ?>" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
+                                <a target="_blank" href="https://twitter.com/<?php echo $twitter; ?>" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
                             </li>
                             <li>
-                                <a href="https://github.com/<?php echo $github; ?>" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                                <a target="_blank" href="https://github.com/<?php echo $github; ?>" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
                             </li>
                             <li>
-                                <a href="<?php echo $linkedin; ?>" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
+                                <a target="_blank" href="<?php echo $linkedin; ?>" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
                             </li>
                         </ul>
                     </div>
